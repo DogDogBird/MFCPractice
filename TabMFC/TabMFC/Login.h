@@ -1,0 +1,31 @@
+#pragma once
+#include "afxwin.h"
+
+
+// CLogin 대화 상자입니다.
+
+class CLogin : public CDialogEx
+{
+	DECLARE_DYNAMIC(CLogin)
+
+public:
+	CLogin(CWnd* pParent = NULL);   // 표준 생성자입니다.
+	virtual ~CLogin();
+
+// 대화 상자 데이터입니다.
+#ifdef AFX_DESIGN_TIME
+	enum { IDD = IDD_LOGIN };
+#endif
+
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 지원입니다.
+
+	DECLARE_MESSAGE_MAP()
+public:
+	CEdit m_ID;
+	CEdit m_Password;
+	CString id;
+	CString pw;
+	afx_msg void OnBnClickedButton1();
+	afx_msg void OnBnClickedButton2();
+};
