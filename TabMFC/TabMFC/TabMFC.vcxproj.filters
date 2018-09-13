@@ -54,6 +54,9 @@
     <ClInclude Include="Log.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="BitmapView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="TabMFC.cpp">
@@ -86,6 +89,9 @@
     <ClCompile Include="Log.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="BitmapView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="TabMFC.rc">
@@ -99,6 +105,12 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\TabMFC.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
   </ItemGroup>

@@ -15,6 +15,7 @@
 #define IDD_LABELINGINSPECTION          138
 #define IDD_SETUP                       140
 #define IDD_LOG                         142
+#define IDB_BITMAP1                     144
 #define IDC_TAB1                        1000
 #define IDC_LOGINBUTTON                 1001
 #define IDC_EDIT_ID                     1002
@@ -29,14 +30,23 @@
 #define IDC_BUTTON7                     1010
 #define IDC_PICTURE                     1013
 #define IDC_PICTURE2                    1014
+#define IDC_EDIT1                       1017
+#define IDC_EDIT2                       1018
+#define IDC_EDIT3                       1019
+#define IDC_EDIT4                       1020
+#define IDC_EDIT5                       1021
+#define IDC_CUSTOM1                     1022
+#define IDC_DATETIMEPICKER1             1023
+#define IDC_LIST1                       1024
+#define IDC_LABELIMAGE                  1025
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        144
+#define _APS_NEXT_RESOURCE_VALUE        146
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1017
+#define _APS_NEXT_CONTROL_VALUE         1026
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

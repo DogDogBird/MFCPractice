@@ -192,6 +192,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BitmapView.h" />
     <ClInclude Include="GlueGun.h" />
     <ClInclude Include="LabelingInspection.h" />
     <ClInclude Include="Log.h" />
@@ -206,6 +207,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BitmapView.cpp" />
     <ClCompile Include="GlueGun.cpp" />
     <ClCompile Include="LabelingInspection.cpp" />
     <ClCompile Include="Log.cpp" />
@@ -229,6 +231,8 @@
     <None Include="res\TabMFC.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bitmap2.bmp" />
     <Image Include="res\TabMFC.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
